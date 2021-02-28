@@ -1,0 +1,138 @@
+/* Geral*/
+
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #ff6a28;
+    color: #fff;
+    padding: 8px 16px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.footer {
+    background-color: #ff6a28;
+    color: #fff;
+    padding: 8px 16px;
+    text-align: center;
+}
+
+.recipe-card {
+    text-align: center;
+    min-width: 320px;
+    max-width: 345px;
+    margin: 26px auto;
+    border-radius: 5px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, .4);
+}
+
+.recipe-picture {
+    padding: 20px 10px;
+    border-radius: 50px;
+}
+
+.recipe-category {
+    padding: 4px 12px;
+    color: #b8b8b8;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.racipe-name {
+    padding: 4px 12px;
+}
+
+/* pagina bolo de cenoura*/
+.racipe-body-name {
+    text-align: center;
+}
+
+.racipe-body-picture {
+    max-width: 100%;
+}
+
+.racipe-body {
+    padding: 12px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.racipe-body h2 {
+    color: #ff6a28;
+}
+
+.racipe-body ul {
+    margin: 0 50px;
+}
+
+.racipe-body li {
+    padding: 10px;
+}
+
+@media (min-width: 768px) {
+        main {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+        .header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 2;
+        }
+       
+    }
+
+@media (min-width: 1024px) {
+   
+     }
+    main {
+        display: flex;
+        flex-flow: row wrap;
+        text-align: center;
+        position: relative;
+        margin: 60px auto;
+       
+    }
+    .header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 2;
+    }
+    
+
+
+@media (min-width: 1386px) {
+    main {
+        display: flex;
+        flex-flow: row wrap;
+        text-align: center;
+        position: relative;
+    }
+    .header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 2;
+    }
+    .footer {
+        display: block;
+        position: absolute;
+        padding-bottom: 0;
+        width: 100%;
+    }
+    
+}
+
+
+
