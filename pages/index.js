@@ -33,7 +33,7 @@ export default function index() {
           link="/receitas/massas/espaguete"
         />
         <RecipeCard 
-          name="Frango"
+          name="Fricasse de frango"
           category="Carne"
           picture="https://img.itdg.com.br/tdg/images/recipes/000/173/263/174433/174433_original.jpg?mode=crop&width=300&height=300"
           link="/receitas/carnes/Frango"
